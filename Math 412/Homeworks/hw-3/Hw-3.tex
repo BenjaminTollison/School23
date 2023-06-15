@@ -99,7 +99,7 @@
   \array{#1}}
 \makeatother
 
-%\printanswers
+\printanswers
 \begin{document}
 
 \noindent
@@ -136,22 +136,111 @@ neat way?
 \begin{questions}
 \question Solve $\pt u + u\px u = 2$ for $t\geq 0$ if $u(x,0) = 3x$. 
 \begin{solutionorbox}[\stretch{1}]
+$$
+\begin{matrix}
+  \Dot{t}(s) = 1 & t(0) = 0 & \rightarrow t = s \\
+  \Dot{x}(s) = z & x(0) = x_0 &\\
+  \Dot{z}(s) = 2 & z(0) = 3x_0 &\\
+\end{matrix}
+$$
+\[z(s) = 2s + 3x_0\]
+\[\Dot{x}(s) = 2s + 3x_0 \rightarrow x=s^2 + 3sx_0 + c\]
+\[x(0) = x_0 = c\rightarrow x=s^2 + 3sx_0 + x_0\]
+a,b subsitution
+$$
+\begin{matrix}
+  a = s^2 + 3sx_0 + x_0 & b = s
+\end{matrix}
+$$
+\[\frac{a}{3b+1}-b^2 = x_0\]
+\[\therefore u(x,t)=2t+3\left(\frac{x}{3t+1}-t^2\right)\]
 \end{solutionorbox}
 
 \newpage 
 \question Solve $(y+u)\px u + y\py u = x-y$ with $u(x,1) = 1+x$.
 \begin{solutionorbox}[\stretch{1}]
+$$
+\begin{matrix}
+  \Dot{x}(s) =y + z & x(0) = x_0 &\\
+  \Dot{y}(s) = y & y(0) = 1 &\rightarrow y = e^s \\
+  \Dot{z}(s) = x-y & z(0) = 1+x_0 &\\
+\end{matrix}
+$$
+\[\Ddot{z}+\Dot{y} =x={y}+\Dot{z}\]
+\[\Ddot{z} = z\]
+\[z = Ce^s\]
+\[z(0) = 1+x_0 \rightarrow z=(1+x_0)e^s\]
+\[\Dot{x}=e^s + (1+x_0)e^s\]
+\[x = 2e^s + x_0e^s - 2|_{x_0=2+x_0+c\rightarrow c=-2}\]
+a,b subsitution
+$$
+\begin{matrix}
+  a = 2e^s + x_0e^s - 2 & b = e^s
+\end{matrix}
+$$
+\[x_0 = \frac{a+2-2b}{b}\]
+\[\therefore u(x,y)=x-y+2\]
 \end{solutionorbox}
 
 \newpage 
 \question Solve $\py u + 2(1+u)\px u = 0$ with $u(x,0) = \begin{cases}1, & x<0\\ 
 3, & x>0\end{cases}$.
 \begin{solutionorbox}[\stretch{1}]
+$$
+\begin{matrix}
+  \Dot{x}(s) =2(1+z) & x(0) = x_0 &\\
+  \Dot{y}(s) = 1 & y(0) = 0 &\rightarrow y = s \\
+  \Dot{z}(s) = 0 & z(0) = \begin{cases}1, & x_0<0\\ 
+    3, & x_0>0\end{cases} &\rightarrow z = \begin{cases}1, & x_0<0\\ 
+      3, & x_0>0\end{cases}\\
+\end{matrix}
+$$
+for $x<0$:
+$$
+\begin{matrix}
+  \Dot{x} = 4 & x = 4s+x_0\\
+  a = 4s+x_0 & b = s\\
+  x_0 = a-4b
+\end{matrix}
+$$
+for $x>0$:
+$$
+\begin{matrix}
+  \Dot{x} = 8 & x = 8s+x_0\\
+  a = 8s+x_0 & b = s\\
+  x_0 = a-8b
+\end{matrix}
+$$
+Solving the expansion wave:
+\[\Dot{x_s} = \frac{\Dot{y}}{\Dot{x} = \frac{b}{a}}\]
+\[z = \frac{2a}{b}-1\]
+\[\therefore u(x,y) = \begin{cases} 1, y>\frac{x}{4}
+\\ \frac{2x}{y}-1,\frac{x}{4}<y<\frac{x}{8}
+\\3,y<\frac{x}{8}
+\end{cases}\]
 \end{solutionorbox}
 
 \newpage 
 \question Solve $\pt u - u\px u = - 2u$ with $u(x,0) = x$.
 \begin{solutionorbox}[\stretch{1}]
+$$
+\begin{matrix}
+  \Dot{t}(s) = 1 & t(0) = 0 & \rightarrow t = s \\
+  \Dot{x}(s) = z & x(0) = x_0 &\\
+  \Dot{z}(s) = -2z & z(0) = x_0 &\\
+\end{matrix}
+$$
+\[z = x_0e^{-2s}\]
+\[\Dot{x}(s) = x_0e^{-2s} \rightarrow \frac{-1}{2}x_0e^{-2s}+c|_{x(0) = x_0 }\]
+\[\rightarrow x= \frac{3}{2}x_0e^{-2s} - \frac{-1}{2}x_0\]
+a,b subsitution
+$$
+\begin{matrix}
+  a = \frac{3}{2}x_0e^{-2s} - \frac{-1}{2}x_0 & b = x_0
+\end{matrix}
+$$
+\[x_0 = \frac{2a}{3-e^{2b}}\]
+\[u(x,y) = \left(\frac{2x}{3-e^{-2y}}\right)e^{-2y}\]
 \end{solutionorbox}
 
 \newpage 
@@ -159,6 +248,43 @@ neat way?
 $u(x,0) = \begin{cases}1, &x\leq 0\\ 1-x,& 0\leq x \leq 1\\ 0,& 1\leq x\end{cases}$. 
 First solve this for $y\leq 1$ and then for $y\geq 1$.
 \begin{solutionorbox}[\stretch{1}]
+$$
+\begin{matrix}
+  \Dot{x}(s) =z & x(0) = x_0 &\\
+  \Dot{y}(s) = 1 & y(0) = 0 &\rightarrow y = s \\
+  \Dot{z}(s) = 0 & z(0) & \rightarrow z = \begin{cases}1, & x_0\geq 0\\ 
+      1-x_0, & 0 \leq x_0\geq 1\\0, &1\leq x_0\end{cases}\\
+\end{matrix}
+$$
+for $x\leq 0$:
+\[x = s+ x_0\]
+\[y = x-x_0\]
+for $0\leq x_0 \leq 1$:
+\[x = s-x_0s + c\]
+\[x(0) = x_0 = c\]
+\[x = s-x_0s + x_0\]
+\[y = \frac{x-x_0}{1-x_0}\]
+for $x\geq 1$:
+\[x = x_0\]
+$y\leq 1$ is an expansion wave
+\[\Dot{x_s} = \frac{1}{z} = \frac{b}{a}\]
+\[z = \frac{a}{b}\]
+$y\geq 1$ is an compression wave
+\[f(u) = \frac{1}{2}u^2\]
+\[\Dot{x_s} = \frac{[f]}{[u]} = 1-\frac{x_0}{2}\]
+
+$y \leq 1:$
+\[\therefore u(x,y) \begin{cases}1, & x\leq y\\ 
+1-\frac{x-y}{1-y},&y \leq x \leq 1+y\\
+1-\frac{x-y}{2-2y},&y+1 \leq x \leq 1\\
+0, &x\geq 1\\
+\end{cases}\]
+$y \geq 1:$
+\[\therefore u(x,y) \begin{cases}1, & x\leq 1\\ 
+\frac{x}{y},&1 \leq x \leq y\\
+1-\frac{x-y}{1-y},&y \leq x \leq 1+y\\
+0, &x\geq 1\\
+\end{cases}\]
 \end{solutionorbox}
 \end{questions}
 \end{document}
