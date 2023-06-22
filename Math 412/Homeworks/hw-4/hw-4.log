@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  16 JUN 2023 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  21 JUN 2023 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -737,16 +737,16 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 118.
  [1
 
-{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<graph27.png, id=16, 803.0pt x 803.0pt>
+{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+<graph27.png, id=19, 803.0pt x 803.0pt>
 File: graph27.png Graphic file (type png)
 <use graph27.png>
-Package pdftex.def Info: graph27.png  used on input line 155.
+Package pdftex.def Info: graph27.png  used on input line 187.
 (pdftex.def)             Requested size: 179.78204pt x 179.785pt.
-<graph26.png, id=18, 803.0pt x 803.0pt>
+<graph26.png, id=21, 803.0pt x 803.0pt>
 File: graph26.png Graphic file (type png)
 <use graph26.png>
-Package pdftex.def Info: graph26.png  used on input line 158.
+Package pdftex.def Info: graph26.png  used on input line 190.
 (pdftex.def)             Requested size: 179.78204pt x 179.785pt.
  [3 <./graph27.png> <./graph26.png>] [4] [5] [6]
 This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
@@ -756,17 +756,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6016 strings out of 476411
- 90531 string characters out of 5789134
- 1856845 words of memory out of 5000000
+ 6017 strings out of 476411
+ 90544 string characters out of 5789134
+ 1863845 words of memory out of 5000000
  26249 multiletter control sequences out of 15000+600000
  547208 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,28n,62p,350b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on hw-4.pdf (6 pages, 177090 bytes).
+<C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb>
+Output written on hw-4.pdf (6 pages, 198032 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

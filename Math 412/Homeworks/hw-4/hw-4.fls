@@ -270,6 +270,7 @@ INPUT C:\Users\benja\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss8.tfm
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT .\graph27.png
 INPUT .\graph27.png
 INPUT graph27.png
@@ -291,6 +292,10 @@ INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\e
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eufm10.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm10.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm10.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eusm10.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eusm10.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.pfb
@@ -303,3 +308,7 @@ INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso12
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso12.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsya.pfb
+INPUT C:\Users\benja\AppData\Local\Programs\MiKTeX\fonts\type1\public\txfonts\txsya.pfb

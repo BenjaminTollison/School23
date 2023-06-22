@@ -103,7 +103,7 @@
   \array{#1}}
 \makeatother
 
-%\printanswers
+\printanswers
 \begin{document}
 
 \noindent
@@ -144,6 +144,38 @@ Solve $\pt u + u \px u = 0$ on $x\in (-\infty,\infty)$ and $t>0$ if
 $u(x,0) = \begin{cases}1, & 0<x<2\\ 0, & \textnormal{else}\end{cases}$.
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+\[
+\begin{matrix}
+  \Dot{x}(s) = z & x(0) = x_0 &\\
+  \Dot{t}(s) = 1 & y(0) = 0 &\rightarrow t = s \\
+  \Dot{z}(s) = 0 & z(0) = \begin{cases} 1, & 0<x<2\\ 0,& else
+  \end{cases} &\\
+\end{matrix}
+\]
+$0<x_0<2$:
+\[\Dot{x}{s} = 1\rightarrow x = s+x_0\]
+\[
+\begin{matrix}
+  a = s + x_0 & b = s\\
+\end{matrix}
+\]
+\[x_0 = a-b\]
+\[\therefore u(x,t) = 1 \in 0<x-t<2\]
+else:
+\[\Dot{x}{s} = 0\rightarrow x = x_0\]
+\[u(x,t) = 0 \in else\]
+$t\geq 0$:
+Shockwave
+\[\Dot{x}_s = \frac{\left[\frac{1}{2}u^2\right]}{[u]} = \frac{\frac{1}{2}(1^2-0^2)}{1^2-0^2}=\frac{1}{2}\]
+Expansion wave
+\[m = \frac{\Dot[t]}{\Dot{x}} = \frac{1}{z} = \frac{b}{a}\rightarrow z = \frac{x}{t} \in 0<x<t\]
+All resulting in
+\[u(x,t) = \begin{cases}
+\frac{x}{t}, & 0<x<t\\
+1, & t<x<t+2\\
+\frac{1}{2} , & x = \frac{1}{2}t + 2\\
+0, & else
+\end{cases}\]
 \end{solutionorbox}
 
 \newpage 
@@ -177,6 +209,12 @@ Show (by differentiating) that the Alembert Solution solves the wave equation. F
 $c^2 = 1$. 
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+\[u(x,t)=\frac{1}{2}[\phi(x+ct)+\phi(x-ct)]+\frac{1}{2c}\int_{x-ct}^{x+ct}\psi(s)ds|_{c = 1}\]
+\[\px u = \frac{1}{2}[\phi'(x+t)+\phi'(x-t)]+\frac{1}{2}[\psi(x+t)-\psi(x-t)]\]
+\[\pxx u = \frac{1}{2}[\phi''(x+t)+\phi''(x-t)+\psi'(x+t)-\psi'(x-t)]\]
+\[\pt u= \frac{1}{2}[\phi'(x+t)-\phi'(x-t)]+\frac{1}{2}[\psi(x+t)+\psi(x-t)]\]
+\[\ptt u = \frac{1}{2}[\phi''(x+t)+\phi''(x-t)+\psi'(x+t)-\psi'(x-t)]\]
+\[\pxx u = \ptt u\]
 \end{solutionorbox}
 
 
@@ -185,6 +223,21 @@ $c^2 = 1$.
 Solve $\ptt u = \pxx u$ if $u(x,0) = \sin x$ and $\pt u(x,0) = x$.
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+$$
+\begin{matrix}
+  c^2 = 1 & \phi(x) = \sin{x} & \phi(0) = x \\
+\end{matrix}
+$$
+\[u(x,t)=\frac{1}{2}[\phi(x+ct)+\phi(x-ct)]+\frac{1}{2c}\int_{x-ct}^{x+ct}\psi(s)ds|_{c = 1}\]
+\[u(x,t)=\frac{1}{2}[\sin(x+t)+\sin(x-t)]+\left[\frac{1}{4}s^2\right]_{x-ct}^{x+ct}\]
+Using $\sin(a+b) = \sin{a}\cos{b} + \cos{a}\cos{b}$:
+\[\sin(x+t) = \sin{x}\cos{t} + \cos{x}\sin{t}\]
+\[\sin(x-t) = \sin{x}\cos{t} - \cos{x}\sin{t}\]
+\[\rightarrow \sin(x+t)+\sin(x-t) = 2\sin{x}\cos{t}\]
+Simplifying $\left[\frac{1}{4}s^2\right]_{x-ct}^{x+ct}$:
+\[\frac{1}{4}[(x+t)^2 - (x-t)^2] = \frac{1}{4}[x^2+2xt+t^2-x^2+2xt-t^2]\]
+\[\rightarrow xt\]
+\[\therefore u(x,t) = \sin{x}\cos{t} + xt\]
 \end{solutionorbox}
 
 \newpage 
@@ -192,6 +245,40 @@ Solve $\ptt u = \pxx u$ if $u(x,0) = \sin x$ and $\pt u(x,0) = x$.
 Solve $\pxx u - 3\px\pt u - 4\ptt u = 0$ if $u(x,0) = x^2$ and $\pt u(x,0)=e^x$.
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+\[(\px u - 4\pt u)(\px u + \pt u) = 0\]
+Solving where \(\px u - 4\pt u = 0\):
+\[
+\begin{matrix}
+  \Dot{x}(s) = 1 & x(0) = x_0 \rightarrow x = s+x_0&\\
+  \Dot{t}(s) = -4 & y(0) = 0 &\rightarrow t = -4s \\
+  \Dot{z}(s) = 0 & z(0) = x_0^2 \rightarrow z = x_0^2
+\end{matrix}
+\]
+\[
+\begin{matrix}
+  a = s + x_0 & b = -4s\\
+  a = x_0 - \frac{1}{4}b & s = \frac{-1}{4}b\\
+  x_0 = a+\frac{1}{4}b
+\end{matrix}
+\]
+\[u(x,t) = \left(x+\frac{1}{4}t\right)^2\]
+Solving where \(\px u + \pt u = 0\):
+\[
+\begin{matrix}
+  \Dot{x}(s) = 1 & x(0) = x_0 \rightarrow x = s+x_0&\\
+  \Dot{t}(s) = 1 & y(0) = 0 &\rightarrow t = s \\
+  \Dot{z}(s) = 0 & z(0) = x_0^2 \rightarrow z = x_0^2
+\end{matrix}
+\]
+\[
+\begin{matrix}
+  a = s + x_0 & b = s\\
+  a = x_0 + b &\\
+  x_0 = a-b
+\end{matrix}
+\]
+\[u(x,t) = (x-t)^2\]
+I can't figure out how to implement the \(\psi(x) = e^x\).
 \end{solutionorbox}
 \end{questions}
 \end{document}
