@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  28 JUN 2023 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  5 JUL 2023 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Math 412/Homeworks/hw-5/hw-5.tex"
-(c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Math 412/Homeworks/hw-5/hw-5.tex
+**"c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Math 412/Homeworks/hw-6/hw-6.tex"
+(c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Math 412/Homeworks/hw-6/hw-6.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/exam\exam.cls
 Document Class: exam 2021/02/26 Version 2.7 by Philip Hirschhorn
@@ -193,29 +193,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsxtra.sty
 Package: amsxtra 1999/11/15 v1.2c AMS extra commands
 LaTeX Info: Redefining \nobreakspace on input line 54.
-) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
-Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks34
-) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen153
-\Gin@req@width=\dimen154
-) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
@@ -223,14 +206,14 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@cnth=\count312
 \Gm@cntv=\count313
 \c@Gm@tempcnt=\count314
-\Gm@bindingoffset=\dimen155
-\Gm@wd@mp=\dimen156
-\Gm@odd@mp=\dimen157
-\Gm@even@mp=\dimen158
-\Gm@layoutwidth=\dimen159
-\Gm@layoutheight=\dimen160
-\Gm@layouthoffset=\dimen161
-\Gm@layoutvoffset=\dimen162
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
 \Gm@dimlist=\toks35
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -466,21 +449,21 @@ Package: pdfsync 2008/01/26 v1.1
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count315
 \mult@box=\box54
-\multicol@leftmargin=\dimen163
+\multicol@leftmargin=\dimen161
 \c@unbalance=\count316
 \c@collectmore=\count317
 \doublecol@number=\count318
 \multicoltolerance=\count319
 \multicolpretolerance=\count320
-\full@width=\dimen164
-\page@free=\dimen165
-\premulticols=\dimen166
-\postmulticols=\dimen167
+\full@width=\dimen162
+\page@free=\dimen163
+\premulticols=\dimen164
+\postmulticols=\dimen165
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
 \partial@page=\box55
 \last@line=\box56
-\maxbalancingoverflow=\dimen168
+\maxbalancingoverflow=\dimen166
 \mult@rightbox=\box57
 \mult@grightbox=\box58
 \mult@firstbox=\box59
@@ -524,72 +507,69 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@minrows=\count321
 \c@columnbadness=\count322
 \c@finalcolumnbadness=\count323
-\last@try=\dimen169
-\multicolovershoot=\dimen170
-\multicolundershoot=\dimen171
+\last@try=\dimen167
+\multicolovershoot=\dimen168
+\multicolundershoot=\dimen169
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
 \mc@col@check@num=\count324
+) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 108.
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 107.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count325
 \l__pdf_internal_box=\box99
-) (hw-5.aux)
-\openout1 = `hw-5.aux'.
+) (hw-6.aux)
+\openout1 = `hw-6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 108.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 108.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 107.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 107.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 108.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 107.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 107.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 108.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 107.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 107.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 108.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 107.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 107.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 108.
- (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen172
-\scratchbox=\box100
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen173
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks37
-) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
+LaTeX Font Info:    ... okay on input line 107.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -624,111 +604,130 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 108.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 107.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 108.
+(Font)              `operators' in the math version `normal' on input line 107.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> T1/lmr/m/up on input line 108.
+(Font)                  OT1/lmr/m/n --> T1/lmr/m/up on input line 107.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 108.
+(Font)              `operators' in the math version `bold' on input line 107.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmr/m/up on input line 108.
+(Font)                  OT1/lmr/bx/n --> T1/lmr/m/up on input line 107.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/lmr/m/up --> T1/lmr/b/up on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 108.
+(Font)                  T1/lmr/m/up --> T1/lmr/b/up on input line 107.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmr/b/up on input line 108.
+(Font)                  OT1/lmr/bx/n --> T1/lmr/b/up on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmr/b/up on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 108.
+(Font)                  OT1/lmr/bx/n --> T1/lmr/b/up on input line 107.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/up on input line 108.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/up on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/up on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 108.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/up on input line 107.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmr/m/it on input line 108.
+(Font)                  OT1/lmr/m/it --> T1/lmr/m/it on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmr/m/it on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+(Font)                  OT1/lmr/bx/it --> T1/lmr/m/it on input line 107.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/up on input line 108.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/up on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/up on input line 108.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/up on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/up --> T1/lmss/b/up on input line 108.
+(Font)                  T1/lmss/m/up --> T1/lmss/b/up on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmr/m/it --> T1/lmr/b/it on input line 108.
+(Font)                  T1/lmr/m/it --> T1/lmr/b/it on input line 107.
 Configuring pdfsync
 \PDFSYNC@ut=\write3
-\openout3 = `hw-5.pdfsync'.
+\openout3 = `hw-6.pdfsync'.
 
-\PDFSYNCf@li@=\count332
-\PDFSYNC@rder=\count333
+\PDFSYNCf@li@=\count326
+\PDFSYNC@rder=\count327
 **** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks38
+\PDFSYNCeveryp@r=\toks36
 **** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks39
+\PDFSYNCeverym@th=\toks37
 **** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks40
+\PDFSYNCeveryhb@x=\toks38
 **** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks41
+\PDFSYNCeveryvb@x=\toks39
 **** pdfsync.sty: started
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 111.
-(C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+(C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count328
+\scratchdimen=\dimen172
+\scratchbox=\box100
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen173
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks41
+) (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 110.
+ (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmr/m/up' undefined
-(Font)              using `T1/lmr/m/n' instead on input line 111.
+(Font)              using `T1/lmr/m/n' instead on input line 110.
 
-LaTeX Font Info:    Trying to load font information for U+eur on input line 111.
+LaTeX Font Info:    Trying to load font information for U+eur on input line 110.
 (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 111.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 111.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 111.
+(Font)              <12> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 111.
+(Font)              <8> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 111.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 111.
+(Font)              <6> on input line 110.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 111.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 111.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 111.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 111.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+euf on input line 111.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-LaTeX Font Info:    Trying to load font information for U+eus on input line 111.
+LaTeX Font Info:    Trying to load font information for U+eus on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-LaTeX Font Info:    Trying to load font information for U+euex on input line 111.
+LaTeX Font Info:    Trying to load font information for U+euex on input line 110.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
@@ -736,36 +735,25 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 118.
  [1
 
-{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
-<handgraph1.png, id=9, 457.71pt x 161.60374pt>
-File: handgraph1.png Graphic file (type png)
-<use handgraph1.png>
-Package pdftex.def Info: handgraph1.png  used on input line 151.
-(pdftex.def)             Requested size: 393.93112pt x 139.08994pt.
-
-Overfull \hbox (13.36pt too wide) in paragraph at lines 157--159
-\T1/lmss/m/n/12 Looking at a func-tion that fol-lows the in-tial rules such as $[][]\U/eur/m/n/12 e[]$\T1/lmss/m/n/12 , where $[][][][] [] \U/eur/m/n/12 dx \U/euf/m/n/12 =
- []
-
-[2{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./handgraph1.png>] [3] [4] [5]
-This exam contains 4 questions with 0 parts, 0 subparts, and 0 subsubparts.
-(hw-5.aux)
+{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
+(hw-6.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6002 strings out of 476411
- 90343 string characters out of 5789134
- 1860845 words of memory out of 5000000
- 26235 multiletter control sequences out of 15000+600000
+ 5952 strings out of 476411
+ 89301 string characters out of 5789134
+ 1856845 words of memory out of 5000000
+ 26193 multiletter control sequences out of 15000+600000
  544437 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,28n,62p,331b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb>
-Output written on hw-5.pdf (5 pages, 192028 bytes).
+ 57i,28n,62p,350b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
+Output written on hw-6.pdf (10 pages, 117015 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

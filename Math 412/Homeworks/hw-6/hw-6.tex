@@ -1,8 +1,7 @@
 \documentclass[12pt]{exam}
 \usepackage[utf8]{inputenc}
 
-\usepackage{amsmath,amstext,amsthm,amssymb,amsxtra,cancel}
-\usepackage{graphicx}
+\usepackage{amsmath,amstext,amsthm,amssymb,amsxtra}
 \usepackage[top=1.5in, bottom=1.5in, left=1.25in, right=1.25in]	{geometry}
 %\usepackage[normalem]{ulem}
 \usepackage{txfonts} % pxfonts txfonts 
@@ -71,8 +70,8 @@
 \newcommand{\mbump}[2]{\lceil #1,#2 \rceil}
 \newcommand{\cbump}[2]{\lfloor #1,#2 \rfloor}
 
-\newcommand{\hn}{{5 }}
-\newcommand{\dd}{{June 28}}
+\newcommand{\hn}{{6 }}
+\newcommand{\dd}{{July 5}}
 \newcommand{\class}{Math 412 Summer 23}
 \newcommand{\term}{Spring 2022}
 \newcommand{\examnum}{Homework \hn: Due \dd}
@@ -104,14 +103,15 @@
   \array{#1}}
 \makeatother
 
-\printanswers
+%\printanswers
 \begin{document}
 
 \noindent
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
-\textbf{\class} & \textbf{Name:} & \bf{Benjamin Tollison}\\
+\textbf{\class} & \textbf{Name:} & \makebox[2in]{\hrulefill}\\
 \end{tabular*}\\
 \rule[2ex]{\textwidth}{2pt}
+%
 
  
 
@@ -140,51 +140,73 @@ neat way?
 \newpage 
 \begin{questions}
 \begin{question}
-If $\int_{-\infty}^{\infty} \abs{f(x)}dx$ converges and $\int_{-\infty}^{\infty}\abs{f'(x)}dx$ converges, then show 
-$\lim_{R\to\infty}f(R) = 0$.
+Consider an infinitely long one--dimensional uniform rod. Let $e(x,t)$ denote the concentration of thermal energy 
+per meter at location $x$ and time $t$. By the diffusion equation, this satisfies $\pt e = \alpha \pxx e$. If 
+$u(x,t)$ denotes the temperature of the rod at location $x$ and time $t$, \textit{using the diffusion equation}
+$\pt e = \alpha \pxx e$ derive a PDE that $u$ satisfies. Note: the thermal energy in a slice of rod is the 
+energy needed to raise the slice from a reference temperature of $0$ degrees to its current temperature. The 
+specific heat, $c(x,T)$, is the thermal energy needed to raise a unit mass of a substance on unit. So the thermal
+energy needed to raise a thin slice from $0$ to $u(x,t)$ is $\int_{T=0}^{u(x,t)}c(x,T) \rho dT$ where $\rho$ 
+is the linear mass density of the rod. You may assume that $c(x,T)$ does not depend on $T$. 
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
-\[\lim_{r\to \infty}\int_-r^r \abs{f'(x)}dx >\lim_{r\to \infty}\int_0^r \abs{f'(x)}dx =\lim_{r\to \infty} f(r) - f(0)\]
-\[\lim_{r\to \infty}f(r) = \lim_{r\to \infty}\int_0^r \abs{f'(x)}dx + f(0) = A\]
-Assuming that the function reaches an equalibruim value of A. Where A is greater than zero because we are taking the absolute value of the function.
-\begin{minipage}{\linewidth}
-    \includegraphics[width=\linewidth]{handgraph1.png}
-\end{minipage}
-Therefore we know that \(\lim_{r\to \infty}\int_0^r A dx > \lim_{r\to \infty}\int_0^r \frac{A}{2} dx\) and both are equal to \(\infty\).
-\[\infty > \lim_{r\to \infty}\int_0^r \abs{f(x)}dx > \lim_{r\to \infty}\int_0^r A dx > \lim_{r\to \infty}\int_0^r \frac{A}{2} dx = \infty\]
-We know that \(\infty > \lim_{r\to \infty}\int_0^r \abs{f(x)}dx\neq \infty\) if \(A>0\). However, if \(A \equiv 0\) then
-\[\infty > \lim_{r\to \infty}\int_0^r \abs{f(x)}dx > 0\]
-\[\therefore \lim_{r\to \infty}f(r) = 0\]
-Looking at a function that follows the intial rules such as \(e^{-x^2}\), where \(\int_{-\infty}^{\infty} \abs{e^{-x^2}}dx=\sqrt{\pi}\) and \(\int_{-\infty}^{\infty} \abs{-2xe^{-x^2}}dx=2\)
-\[\lim_{x \to \infty}e^{-x^2} = 0\]
+\end{solutionorbox}
+
+\newpage 
+\begin{solutionorbox}[\stretch{1}]
+Continue here if needed. 
 \end{solutionorbox}
 
 \newpage 
 \begin{question}
-Compute $\hat{f}(\xi)$ if $f(x) = \begin{cases}-1, & -a<x<0\\ 1, & 0<x<a\\ 0, & \abs{x}>a\end{cases}.$
-\end{question}
-\begin{solutionorbox}[\stretch{1}]
-\[\Hat{f}(\zeta) = \int_{-\infty}^{\infty} f(x)e^{-i\zeta x} dx\]
-\[\Hat{f}(\zeta) =\int_{-a}^{0} (-1)e^{-i\zeta x}dx + \int_{0}^{a} e^{-i\zeta x}dx \]
-\[\Hat{f}(\zeta) =\frac{1}{i \zeta} - \frac{1}{i \zeta} e^{i\zeta a} + \frac{-1}{i \zeta} e^{-i\zeta a} -\frac{-1}{i \zeta}\]
-\[\Hat{f}(\zeta) = \frac{2}{i \zeta} - \frac{1}{i \zeta}(e^{i\zeta a} + e^{-i \zeta a})\]
-\[\Hat{f}(\zeta) = \frac{2}{i \zeta} - \frac{2}{\zeta} \cos{(\zeta a)}\]
-\end{solutionorbox}
-
-
-\newpage 
-\begin{question}
-Show that the Fourier transform of $f(x) = \frac{1}{2}e^{-\abs{x}}$ is $\hat{f}(\xi) = \frac{1}{\xi^2 + 1}$.
+Solve the PDE $\pt u = k \pxx u - \gamma u$ for $-\infty < x < \infty$ if $u(x,0) = f(x)$. 
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
 \end{solutionorbox}
 
 \newpage 
 \begin{question}
-Use Fourier Transform to solve $\pt u = \pxx u$ if $u(x,0) = \delta$.
+This is another way to solve the non--homogeneous problem: solve $\pt u(x,t) = \pxx u(x,t) + f(x,t)$ if 
+$u(x,0) = 0$ by directly using Fourier transforms (that is, don't appeal to Duhamel's Principle). 
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
 \end{solutionorbox}
+
+\newpage 
+\begin{solutionorbox}[\stretch{1}]
+Continue here if needed. 
+\end{solutionorbox}
+
+\newpage 
+\begin{question}
+Show that $\int u(x,t)dx = \int g(x)dx$. Show that $E(t) = \int (\px u)^2 dx$ is decreasing. Here
+$u$ solves $\pt u = \pxx u$ with $u(x,0) = g(x)$. There is a
+``hidden'' assumption on $u$ here. Ask me about it if you need
+a ``hint'' on what I mean.
+\end{question}
+\begin{solutionorbox}[\stretch{1}]
+\end{solutionorbox}
+
+\newpage 
+\begin{solutionorbox}[\stretch{1}]
+Continue here if needed. 
+\end{solutionorbox}
+
+
+\newpage 
+\begin{question}
+Consider the non--linear diffusion equation $\pt u - \pxx u + 2(\px u)^2 = 0$. Show that if $u$ is a solution
+and if $v(x,t) = e^{-2u(x,t)}$ then $v$ satisfies $\pt v - \pxx v = 0$. Use this to to solve 
+$\pt u - \pxx u + 2(\px u)^2 = 0$ if $u(x,0) = g(x)$.
+\end{question}
+\begin{solutionorbox}[\stretch{1}]
+\end{solutionorbox}
+
+\newpage 
+\begin{solutionorbox}[\stretch{1}]
+Continue here if needed. 
+\end{solutionorbox}
+
 
 
 \end{questions}
