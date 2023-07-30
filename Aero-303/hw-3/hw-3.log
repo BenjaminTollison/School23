@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  29 JUL 2023 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  30 JUL 2023 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,7 +731,22 @@ LaTeX Font Info:    Trying to load font information for U+euex on input line 99.
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 ) [1
 
-{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2] [3{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [4] [5]
+{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 127--144
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 149--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--173
+
+ []
+
+[3] [4] [5{C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (hw-3.aux)
 
@@ -747,7 +762,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,28n,62p,338b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on hw-3.pdf (5 pages, 105906 bytes).
+Output written on hw-3.pdf (5 pages, 107040 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

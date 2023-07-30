@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1690666285 "c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Aero-303/hw-3/hw-3.tex" "hw-3.pdf" "hw-3" 1690666286 0
+["pdflatex"] 1690754720 "c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Aero-303/hw-3/hw-3.tex" "hw-3.pdf" "hw-3" 1690754722 0
   "C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1690666253 84356 1774f906d2c77ac5a5715ce81cbe746d ""
   "C:/Users/benja/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1686798232 23185515 b793deaa2d09e8c63aa342a62fd83f51 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -94,9 +94,9 @@
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsya.fd" 977346360 310 cee07e4964749ccbc77d84fc49726a79 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyb.fd" 977346360 310 8c5467c8932c259af51b0f116c9734bd ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977346360 310 4b5d6fe830337242ef847b3bff48ba21 ""
-  "c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Aero-303/hw-3/hw-3.tex" 1690666284 8284 9738b23120ff5a26459e7d9a36fdc43c ""
-  "hw-3.aux" 1690666286 987 c0f3e1a1686ab696d935151bd59dc01d "pdflatex"
-  "hw-3.tex" 1690666284 8284 9738b23120ff5a26459e7d9a36fdc43c ""
+  "c:/Users/benja/OneDrive/Documents/GitHub/Summer23/Aero-303/hw-3/hw-3.tex" 1690754719 9732 f16cd2fcb3b656bfa689d88eb15b2a6b ""
+  "hw-3.aux" 1690754721 987 c0f3e1a1686ab696d935151bd59dc01d "pdflatex"
+  "hw-3.tex" 1690754719 9732 f16cd2fcb3b656bfa689d88eb15b2a6b ""
   (generated)
   "hw-3.aux"
   "hw-3.log"
