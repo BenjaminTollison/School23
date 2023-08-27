@@ -1,6 +1,6 @@
 \documentclass[12pt]{exam}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath,amstext,amsthm,amssymb,amsxtra, graphicx}
+\usepackage{amsmath,amstext,amsthm,amssymb,amsxtra, graphicx,cancel}
 \usepackage[top=1.5in, bottom=1.5in, left=1.25in, right=1.25in]	{geometry}
 %\usepackage[normalem]{ulem}
 \usepackage{txfonts} % pxfonts txfonts 
@@ -101,7 +101,7 @@
   \array{#1}}
 \makeatother
 
-%\printanswers
+\printanswers
 \begin{document}
 
 \noindent
@@ -117,21 +117,57 @@ The thrust directions and thruster locations (in a centroidal body-fixed coordin
 are provided in the table. 
 
 Write a relationship between the thrust on-off selector vector and the net force and
-moment produced:
+moment produced using a Ax = b system of equations.
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+\\
+a)\\
+The way that I approach this problem is that I wanted the first row in \(\vec{b}\) to be \(\sum{F_x}\) and 
+the second and third to be \(\sum{F_y}\) and \(\sum{F_z}\).
+Therefore \(a_{11} = F_{thruster 1} \hat{x}\) and etc. 
+Which ended up being the transpose of the thrust direction matrix given that we set the thrust equal to 1.
+\\
+To find the 3 summations of the moments I was going to use the equation \(M = \vec{r} \times \vec{F}\),
+but for each thruster and each force vector I ignored the appropriate columns when taking the cross product. Such as
+\(M_x = (\cancelto{0}{r_x},r_y,r_z) \times (\cancelto{0}{F_x},F_y,F_z)\) and therefore building the following A matrix.
+\[ A =
+\begin{bmatrix}
+  -1. & 0. & 0. & 0. & 0. & 1.\\
+  0. & 1. & 0. & -1. & 0. & 0.\\
+  0. & 0. & 1. & 0. & -1. & 0.\\
+  0. & 8. & -8. & 8. & -8. & 0.\\
+  -8. & 0. & 8. & 0. & 8. & -8.\\
+  -8. & -8. & 0. & -8. & 0. & -8.
+\end{bmatrix}
+\]
+b) \\
+In order to find the sum of forces and moments when the 1,2,5 are all firing, we just have to set 
+\[ \vec{x} = 
+\begin{bmatrix}
+  1 \\ 1 \\ 0 \\ 0 \\ 1 \\ 0
+\end{bmatrix}
+\]
+and do \(A \cdot \vec{x}\) to find \(\vec{b}\) Which is
+\[\vec{b} = \begin{bmatrix}
+ -1. \\ 1. \\ -1. \\ 0. \\ 0. \\ -16 
+\end{bmatrix}
+\]
+c)
+To find all the 2 thruster combinations that only produce a moment, we can first define \[\vec{b} = \begin{bmatrix}
+  0\\0\\0\\ \neq 0 \\ \neq 0 \\ \neq 0
+\end{bmatrix}
+\]
+Then, I listed out all of the possible combinations of thrusters, which in total was 64, then I did \(A \cdot \vec{x}\) and filtered out all the combinations that don't meet the requirements for \(\vec{b}\).
+The \(\vec{x}\) that met the requirements were (0, 0, 0, 0, 0, 0), (0, 0, 1, 0, 1, 0), (0, 1, 0, 1, 0, 0), (0, 1, 1, 1, 1, 0), (1, 0, 0, 0, 0, 1), (1, 0, 1, 0, 1, 1), (1, 1, 0, 1, 0, 1), (1, 1, 1, 1, 1, 1)
+\\
+\\
+\(\therefore\) the thruster pairs (3,5), (2,4), and (1,6)
 \end{solutionorbox}
 
 \newpage 
 \begin{question}
-Solve 
-\begin{align*}
-\begin{cases}
-\pt u = \pxx u\\ 
-u(0, t) = u(\pi, t) = 0\\ 
-u(x,0) = 2\sin 3x
-\end{cases}
-\end{align*}
+A system is modeled by the ode: \(\ddot{x} = -\dot{x} - x + \sin \omega t\); \(x(0) = x_0\) and \(\dot{x}(0) = \dot{x}_0\). The input
+frequency is \(\omega\) (rad/sec) and the output is x(t)
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
 \end{solutionorbox}
