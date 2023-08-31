@@ -167,77 +167,105 @@ The \(\vec{x}\) that met the requirements were (0, 0, 0, 0, 0, 0), (0, 0, 1, 0, 
 \newpage 
 \begin{question}
 A system is modeled by the ode: \(\ddot{x} = -\dot{x} - x + \sin \omega t\); \(x(0) = x_0\) and \(\dot{x}(0) = \dot{x}_0\). The input
-frequency is \(\omega\) (rad/sec) and the output is x(t)
+frequency is \(\omega\) (rad/sec) and the output is x(t) \\
+i) Write the form fo the homogeneous solution \\
+ii) Determind the particular solution \\
+iii) Take the limit of x(t) as t->\(\infty\) and see if the particular solution remains \\
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+\[x(t) = x_h + x_p\]
+i)
+\[x_h = c e^{s(t-t_0)}\]
+The characteristic equation is \(s^2 + s + 1 = 0\)
+\[s = \frac{-1 \pm \sqrt{1-\cancelto{4}{4(1)(1)}}}{2(1)} = \frac{-1}{2} \pm i\frac{\sqrt{3}}{2}\]
+Making the homogeneous equation \[x_h(t) = c_1 e^{t(\frac{-1}{2} - i\frac{\sqrt{3}}{2})} + c_2 e^{t(\frac{-1}{2} + i\frac{\sqrt{3}}{2})}\]
+\[x_h(t) = c_1 \frac{e^{-t/2}}{\cos{\frac{t\sqrt{3}}{2}} + i \sin{t\frac{\sqrt{3}}{2}}} + c_2 e^{-t/2} \left[\cos{\frac{t\sqrt{3}}{2}}+  i \sin{t\frac{\sqrt{3}}{2}}\right]\]
+ii)\\
+The particular solution is going to be of the form \(x_p(t) = a \sin{\omega t} + b \cos{\omega t}\)
+\[\dot{x}_p = a \omega \cos{\omega t} - b \omega \sin{\omega t}\]
+\[\ddot{x}_p = -a \omega^2 \sin{\omega t} -b \omega^2 \cos{\omega t}\]
+Plugging in the particular solution and its derivatives into the original equation produces the following
+\[-a \omega^2 \sin{\omega t} -b \omega^2 \cos{\omega t} +
+a \omega \cos{\omega t} - b \omega \sin{\omega t} +
+a \sin{\omega t} + b \cos{\omega t} = \sin{\omega t} \]
+\[\sin{\omega t} (-a\omega^2 - b\omega - a) + \cos{\omega t} (-b\omega^2 +a\omega -b) = \sin{\omega t}\]
+Which produces the following system of equations:
+\[
+\begin{bmatrix}
+-\omega^2-1 & -\omega\\
+\omega & -\omega^2-1  
+\end{bmatrix}
+\begin{bmatrix}
+a\\b 
+\end{bmatrix}
+= \begin{bmatrix}
+1\\0 
+\end{bmatrix}
+\]
+\[\Rightarrow a = \frac{-\omega^2 - 1}{\omega^4 + 3\omega^2 + 1}\]
+\[\Rightarrow b = \frac{-\omega}{\omega^4 + 3\omega^2 + 1}\]
+iii) \\
+When you take the limit of the homogenous solution, \(x_h(\infty) = 0\) because the real part of s is negative making it a decaying function.
+When you take the limit of the particular solution, the values will oscillate between the amplitudes dictated by a,b.
+\[\therefore \lim_{t\rightarrow\infty} x(t) = \cancelto{0}{x_h} + x_p(t)\] 
 \end{solutionorbox}
 
 
 \newpage 
 \begin{question}
-Find all eigenvalues and eigenfunctions for the equation: 
-$\varphi'' + \lambda \varphi = 0$ with $\varphi(0) = 0$ and $\varphi'(\pi) = 0.$
+Use the Euler integration scheme to obtain the numerical solution to the previous
+problem over a time span of 30 sec, for the specific case of \(\omega= 1\) rad/sec, \(x(0)=1\) and \(\dot{x}(0)=1\). Choose the integration step size appropriately.
 \end{question}
 \begin{solutionorbox}[\stretch{1}]
+\[
+\begin{matrix}
+x_1 = x\\
+x_2 = \dot{x} \\
+x_1(0) = x_0 = 1\\
+x_2(0) = \dot{x}_0 = 1
+\end{matrix}
+\]
+After applying the linearization we get the following system of equations
+\[\begin{bmatrix}
+\dot{x}_1 \\ \dot{x}_2  
+\end{bmatrix}
+=
+\begin{bmatrix}
+x_2 \\ \sin{\omega t} - x_2 + x_1  
+\end{bmatrix}
+\]
+Applying 1st order taylor series approximation gives us the following
+\[\begin{bmatrix}
+x_{1,i+1} \\ x_{2,i+1}
+\end{bmatrix} = \begin{bmatrix}
+x_{1,i} + \Delta t x_{2,i+1} \\ x_{2,i} + \Delta t(\sin{\omega t_i}-x_{2,i+1} + x_{1,i+1})
+\end{bmatrix}\]
+Algerbriac simplification and putting into matrix form produces:
+\[\begin{bmatrix}
+1 & -\Delta t \\ -\Delta t & 1+\Delta t
+\end{bmatrix}
+\begin{bmatrix}
+x_{1,i+1} \\ x_{2,i+1}
+\end{bmatrix}
+=
+\begin{bmatrix}
+x_{1,i} \\ x_{2,i} + \Delta t \sin{\omega t_i}  
+\end{bmatrix}
+\]
+Solving for \(x_{1,i+1}\) and \(x_{2,i+1}\) with cramer's rule
+\[x_{1,i+1} = \frac{x_{1,i}+\Delta t x_{1,i} + \Delta t x_{2,i} + \Delta t^2 \sin{\omega t_i}}{1+\Delta t + \Delta t^2}\]
+\[x_{2,i+1} = \frac{x_{2,i}-\Delta t x_{1,i} + \Delta t \sin{\omega t_i}}{1+\Delta t + \Delta t^2}\]
 \end{solutionorbox}
-
-
-\newpage 
-\begin{question}
-Solve 
-\begin{align*}
-\begin{cases}
-\ptt u = \pxx u\\ 
-u(0, t) = u(\pi, t) = 0\\ 
-u(x,0) = f(x), \pt u(x,0) = 0,
-\end{cases}
-\end{align*}
-where $f(x)$ is the ``hat function'': it's $0$ and $0$ and $\pi$ and $1$ and $\pi/2$ and 
-linear in between. 
-\end{question}
-\begin{solutionorbox}[\stretch{1}]
-\end{solutionorbox}
-
-
-\newpage 
-\begin{question}
-This is another perspective on the SOV method. Consider the problem 
-\begin{align*}
-\begin{cases}
-\pt u = \pxx u\\
-u(0,t) = u(\pi, t) = 0\\ 
-u(x,0) = g(x)
-\end{cases}.
-\end{align*}
-For each fixed $x$, assume that the solution can be written as $\sum_{k=1}^{\infty}B_k\sin(kx)$. 
-Note that the $B_k$ depend on $t$ so a better way to write it is $\sum_{k=1}^{\infty}
-B_k(t) \sin(kx)$. Starting from this point, find the SOV solution. 
-(Note: I had a typo that said $B_k(x)$ before; it should be 
-$B_k(t)$ SORRY!!)
-\end{question}
-\begin{solutionorbox}[\stretch{1}]
-Plugging the function into the PDE we get: 
-\begin{align*}
-\sum_{k=1}^{\infty}B_k'(t)\sin kx
-&= \sum_{k=1}^{\infty}B_k(t)\frac{d^2}{dx^2}\sin kx
-\\&= \sum_{k=1}^{\infty}B_k(t)(-k^2 \sin kx)
-\\&= -\sum_{k=1}^{\infty}B_k(t)k^2 \sin kx.
-\end{align*}
-Subtracting the left from the right: 
-\begin{align*}
-0 = \sum_{k=1}^{\infty}(B_k'(t) + k^2 B_k(t))\sin kx.
-\end{align*}
-Since the $\sin kx$ functions are linearly independent, this implies that
-for all $k$, $B_k'(t) =- k^2 B_k(t)$. So we get an ODE for $B_k$ and the 
-solution is $B_k (t) = B_k(0)e^{-k^2 t}$. To find the values of the 
-constants note that: 
-\begin{align*}
-g(x) 
-= u(x,0)
-= \sum_{k=1}^{\infty}B_k(0) \sin kx.
-\end{align*}
-That is, as before, $B_k(0) = \frac{2}{\pi}\int_{0}^{\pi}g(y)\sin ky dy$.
-\end{solutionorbox}
+\pagebreak
+Graphing the following with a step in time = 0.01 \\
+\begin{figure}[h]
+\includegraphics[width = \linewidth]{Comparing-solutions-graph.png}  
+\centering
+\end{figure}
+ii) \\
+The exact solution converges to the particular solution relatively fast on the time scale of 30s. 
+The oscillation is maitained by the particular solution, and the amplitude is less than the intial disturbence.
+The input and output phase are in sync, while the numerical solution is slightly out of sync.
 
 \end{questions}
 \end{document}

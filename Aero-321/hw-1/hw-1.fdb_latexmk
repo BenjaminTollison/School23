@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1693157398 "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/hw-1/hw-1.tex" "hw-1.pdf" "hw-1" 1693157399 0
-  "C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1690666253 84356 1774f906d2c77ac5a5715ce81cbe746d ""
+["pdflatex"] 1693504422 "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/hw-1/hw-1.tex" "hw-1.pdf" "hw-1" 1693504423 0
+  "C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693496066 84356 1774f906d2c77ac5a5715ce81cbe746d ""
   "C:/Users/benja/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1686798232 23185515 b793deaa2d09e8c63aa342a62fd83f51 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -38,6 +38,7 @@
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb" 1335456787 12536 a46bc0672764104789d46e9c8de8f188 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex8.pfb" 1335456787 12054 cf7c23e1c75a2792c1e807b491a4228f ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb" 1335366146 21098 d4aee7c0aac232caac5688b586b9363c ""
+  "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb" 1335366146 21251 56705123063d7b34002d6b6e7142345e ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb" 1335366146 22644 35cfbc2e737f53c1da991002473b4310 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb" 1335366146 22927 31e776418d6f3753a749eafbf9a8a2bf ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb" 1247596653 11493 4f5ed183a47d3197cf8cd322325db6de ""
@@ -46,6 +47,7 @@
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb" 1256929440 96107 daf52840b555e3b38f9679b629b5e2df ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb" 1256929440 119663 1a3a2206591ddc98c6d6c6271a282516 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb" 1256929440 27863 09ce3735688ffde955e72da27c95b61a ""
+  "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb" 1256929440 28109 6d61305ed3d0eb794ebe36f15cf44aa0 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb" 1256929440 27802 5c876bb2c4040caaf035d60bd74a86bd ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsya.pfb" 977346360 18865 8cbacb599cdc82278a915aff7de34649 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb" 977346360 27693 bfb340b71292c6ead561e4943433945d ""
@@ -102,9 +104,10 @@
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsya.fd" 977346360 310 cee07e4964749ccbc77d84fc49726a79 ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyb.fd" 977346360 310 8c5467c8932c259af51b0f116c9734bd ""
   "C:/Users/benja/AppData/Local/Programs/MiKTeX/tex/latex/txfonts/utxsyc.fd" 977346360 310 4b5d6fe830337242ef847b3bff48ba21 ""
-  "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/hw-1/hw-1.tex" 1693157397 8431 ed5127fcae8fc6b617831445c86a20db ""
-  "hw-1.aux" 1693157398 987 864c3fe5a9540c5e8eb9814be15d7a1e "pdflatex"
-  "hw-1.tex" 1693157397 8431 ed5127fcae8fc6b617831445c86a20db ""
+  "Comparing-solutions-graph.png" 1693503137 62324 e953e60f5d11c3716d46f6f635e41ee8 ""
+  "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/hw-1/hw-1.tex" 1693504421 10445 ae983cf283ac0a9155347ae74ac7ff58 ""
+  "hw-1.aux" 1693504423 725 f1684a2e1f7a7301ab166594cd46d964 "pdflatex"
+  "hw-1.tex" 1693504421 10445 ae983cf283ac0a9155347ae74ac7ff58 ""
   (generated)
   "hw-1.aux"
   "hw-1.log"
