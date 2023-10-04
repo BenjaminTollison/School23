@@ -1,3 +1,5 @@
 **/scratch-cal.ipynb
 *.venv
 *.vscode
+*__pycache__
+*media
