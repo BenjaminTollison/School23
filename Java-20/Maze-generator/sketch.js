@@ -1,12 +1,12 @@
 var columns,rows;
-var maze_size = 20;
+var maze_size = 40;
 var grid = [];
 var current_cell;
 var stack = [];
 
 
 function setup() {
-  createCanvas(1200, 1200);
+  createCanvas(800, 800);
   columns = floor(width/maze_size);
   rows = floor(width/maze_size);
   //frameRate(5);
@@ -17,6 +17,11 @@ function setup() {
     }
   }
   current_cell = grid[0];
+  goal = [roundcellsize(random(0,rows*maze_size)),roundcellsize(random(0,columns*maze_size))];
+  console.log(goal);
+}
+function roundcellsize(a){
+  return Math.floor(a/maze_size)*maze_size;
 }
 function index(i,j){
   if(i<0||j<0||i>columns-1||j>rows-1){
@@ -49,6 +54,11 @@ function draw() {
   }
   current_cell.visted = true;
   current_cell.highlight();
+  if(x=goal[0],y=goal[1]){
+    noStroke();
+    fill(255,255,0,80);
+    rect(x, y, maze_size, maze_size);
+  }
   // step 1
   var next_cell = current_cell.checkNeighbors();
   if(next_cell){
