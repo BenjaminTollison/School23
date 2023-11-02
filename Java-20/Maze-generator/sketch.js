@@ -1,14 +1,15 @@
 var columns,rows;
-var maze_size = 40;
+var maze_size = 1200;
+var cell_size = maze_size/30;
 var grid = [];
 var current_cell;
 var stack = [];
 
 
 function setup() {
-  createCanvas(800, 800);
-  columns = floor(width/maze_size);
-  rows = floor(width/maze_size);
+  createCanvas(maze_size, maze_size);
+  columns = floor(width/cell_size);
+  rows = floor(width/cell_size);
   //frameRate(5);
   for(var row = 0; row<rows;row++){
     for (var column=0;column<columns;column++){
@@ -17,11 +18,12 @@ function setup() {
     }
   }
   current_cell = grid[0];
-  goal = [roundcellsize(random(0,rows*maze_size)),roundcellsize(random(0,columns*maze_size))];
+  var start = grid[0];
+  goal = [roundcellsize(random(0,rows*cell_size)),roundcellsize(random(0,columns*cell_size))];
   console.log(goal);
 }
 function roundcellsize(a){
-  return Math.floor(a/maze_size)*maze_size;
+  return Math.floor(a/cell_size)*cell_size;
 }
 function index(i,j){
   if(i<0||j<0||i>columns-1||j>rows-1){
@@ -54,11 +56,6 @@ function draw() {
   }
   current_cell.visted = true;
   current_cell.highlight();
-  if(x=goal[0],y=goal[1]){
-    noStroke();
-    fill(255,255,0,80);
-    rect(x, y, maze_size, maze_size);
-  }
   // step 1
   var next_cell = current_cell.checkNeighbors();
   if(next_cell){
@@ -72,6 +69,11 @@ function draw() {
   }else if(stack.length>0){
     current_cell = stack.pop();
   }
+  if(x=goal[0],y=goal[1]){
+    noStroke();
+    fill(255,255,0,80);
+    rect(x, y, cell_size, cell_size);
+  }
 }
 class Cell {
   constructor(column, row) {
@@ -80,11 +82,11 @@ class Cell {
     this.walls = [true, true, true, true]; //top right bottom left
     this.visted = false;
     this.highlight = function () {
-      var x = this.column * maze_size;
-      var y = this.row * maze_size;
+      var x = this.column * cell_size;
+      var y = this.row * cell_size;
       noStroke();
       fill(0, 0, 255, 100);
-      rect(x, y, maze_size, maze_size);
+      rect(x, y, cell_size, cell_size);
     };
     this.checkNeighbors = function () {
       var neighbors = [];
@@ -112,25 +114,25 @@ class Cell {
       }
     };
     this.show = function () {
-      var x = this.column * maze_size;
-      var y = this.row * maze_size;
+      var x = this.column * cell_size;
+      var y = this.row * cell_size;
       stroke(255);
       if (this.walls[0]) {
-        line(x, y, x + maze_size, y);
+        line(x, y, x + cell_size, y);
       }
       if (this.walls[1]) {
-        line(x + maze_size, y, x + maze_size, y + maze_size);
+        line(x + cell_size, y, x + cell_size, y + cell_size);
       }
       if (this.walls[2]) {
-        line(x + maze_size, y + maze_size, x, y + maze_size);
+        line(x + cell_size, y + cell_size, x, y + cell_size);
       }
       if (this.walls[3]) {
-        line(x, y + maze_size, x, y);
+        line(x, y + cell_size, x, y);
       }
       if (this.visted) {
         noStroke();
         fill(255, 0, 255, 100);
-        rect(x, y, maze_size, maze_size);
+        rect(x, y, cell_size, cell_size);
       }
     };
   }
