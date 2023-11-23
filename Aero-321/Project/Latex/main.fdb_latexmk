@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1700702104 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1700702399 -1
   "./mybibliography.bib" 1700686776 228 4a4c95f27ba6e79f2fba1076756b8d94 ""
-  "main.bcf" 1700702103 106802 1eecce82a8f737852b97cadd114812bf "pdflatex"
+  "main.bcf" 1700702398 106802 1eecce82a8f737852b97cadd114812bf "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1700702102 "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/Project/Latex/main.tex" "main.pdf" "main" 1700702104 0
+["pdflatex"] 1700702396 "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/Project/Latex/main.tex" "main.pdf" "main" 1700702399 0
   "C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700698759 84356 1774f906d2c77ac5a5715ce81cbe746d ""
   "C:/Users/benja/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1700692155 11548 6ccb389da3025eac52d24fbd71cc3492 ""
   "C:/Users/benja/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1686794632 23185515 b793deaa2d09e8c63aa342a62fd83f51 ""
@@ -149,17 +149,17 @@
   "Code.pdf" 1700698682 74628 96a861b3aac2b285554a9710b1fdf4ca ""
   "Givens-table.png" 1700698303 191253 f47ab8c3170b56bf7f3fa83f45398b4c ""
   "c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/Project/Latex/main.tex" 1700702099 14954 ba92734dfc59706a05637d15ad3e2682 ""
-  "main.aux" 1700702103 2347 ce3ab0f176a23edfd7bb36aacc7d465c "pdflatex"
+  "main.aux" 1700702398 2347 ce3ab0f176a23edfd7bb36aacc7d465c "pdflatex"
   "main.bbl" 1700688986 486 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.run.xml" 1700702103 2406 f0dd9ff6f7b57dcb53e1de889d2eb818 "pdflatex"
+  "main.run.xml" 1700702398 2406 f0dd9ff6f7b57dcb53e1de889d2eb818 "pdflatex"
   "main.tex" 1700702099 14954 ba92734dfc59706a05637d15ad3e2682 ""
-  "main.toc" 1700702103 1467 da6c672373ff7c9a1abe05d6569df2a3 "pdflatex"
+  "main.toc" 1700702398 1467 da6c672373ff7c9a1abe05d6569df2a3 "pdflatex"
   "table-1-1.png" 1700699400 113127 786aebbb0ccdae5eaed9cd31da72f845 ""
   "table-1.png" 1700698525 113145 e8fd2308055a3bfd52c10007b1ecb1e7 ""
   "table-2-1.png" 1700702061 53899 831f70bc26b052bb95f1688f81ac0215 ""
   "table-2.png" 1700700587 97126 345a222faa5f67df3ddcb8688dbbace7 ""
-  "title/logo.png" 1700695636 231461 5f936c8d5a932cb03613443eed51fd38 ""
-  "title/title.tex" 1700689572 2290 94c710cc7e4b816a937ca425d54ee78d ""
+  "title/fun-logo.png" 1700686896 327015 15c73e5e3214cd972b0a61b4e3321f27 ""
+  "title/title.tex" 1700702396 2294 027cd7ab66ee94af70bed8ab8be18290 ""
   (generated)
   "main.aux"
   "main.bcf"
