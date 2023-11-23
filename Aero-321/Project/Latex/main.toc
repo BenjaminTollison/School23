@@ -1,0 +1,20 @@
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {section}{\numberline {1}Task 1a}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Determining \(L_{WF}\)}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Finding \(C_{L_{\alpha ,W}}\)}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Find \(q_\infty \)}{3}{}%
+\contentsline {subsection}{\numberline {1.4}Finding \(D_0\)}{4}{}%
+\contentsline {subsection}{\numberline {1.5}Finding \(L_H\)}{4}{}%
+\contentsline {subsection}{\numberline {1.6}Finding \(F_{N_0}\)}{4}{}%
+\contentsline {subsection}{\numberline {1.7}Finding \(\epsilon \)}{5}{}%
+\contentsline {section}{\numberline {2}Task 1b}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Equations to consider}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Algorithm}{6}{}%
+\contentsline {section}{\numberline {3}Task 1 Tables}{7}{}%
+\contentsline {section}{\numberline {4}Task 2}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Analysis of the Longitudinal Derivatives}{12}{}%
+\contentsline {subsection}{\numberline {4.2}Explanation of Dynamic Parameters from Eigenvalues}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Categorzing the Aircraft}{13}{}%
+\contentsline {subsection}{\numberline {4.4}Task 2 Tables}{13}{}%
+\tof@finish 
