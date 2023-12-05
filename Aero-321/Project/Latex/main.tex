@@ -28,7 +28,7 @@
 \def\snum{Author}
 \def\coursecode{AERO321}
 \def\coursetitle{Dynamics of Aerospace Vehicles}
-\def\assignname{Interim Report 2}
+\def\assignname{Final Report}
 
 \title{Fall 23 Project}
 
@@ -37,7 +37,8 @@
 
 
 \begin{document}
-\input{title/title.tex}
+% \input{title/title.tex}
+\includepdf{321ProjectTitlePage.pdf}
 \tableofcontents
 \newpage
 \section{Task 1a}
@@ -80,7 +81,7 @@ where \(C_{L_{W0}}=0\) due to symmetry, which leads to the problem that we need 
 \item Find \(v_\infty$ from $M = \frac{v_\infty}{a}\)\\
 \item Get the \(\rho_\infty\) with isentropic equation
   \begin{enumerate}
-  \item \(\frac{\rho_0}{\rho} = \left(1+\frac{\gamma-1}{2}M^2\right)^\frac{1}{\gamma-1}\)
+  \item \(\frac{\rho_0}{\rho} = {\left(1+\frac{\gamma-1}{2}M^2\right)}^{\frac{1}{\gamma-1}}\)
   \item \(\rho_0 = 7.3654\cdot10^{-4} [sl/ft^3] = 0.3795971165326[kg/m^3]\)
   \end{enumerate}
 \end{enumerate}
@@ -158,29 +159,40 @@ The method to find the forward most positon of the center of gravity uses the fo
 \begin{enumerate}
     \item \textbf{Initialization:}
         \begin{itemize}
-            \item Set the minimum coefficient of lift $CL_{\text{min}}$ based on aircraft weight ($W$), dynamic pressure ($q_{\text{inf}}$), and wing reference area ($S_{\text{W}}$).
-            \item Generate an array $a$ with 1000 elements, ranging from -0.2 to 0.2.
+            \item Set the $\alpha_0,i_H,T_0$ as the trim conditions
+            \item Set \(X_cg\) as 27 ft
+            \item \begin{equation}
+              \begin{aligned}
+                  e &= \text{{de\_da}} \cdot a_0 \\
+                  a_H &= a_0 + i_h - e \\
+                  L_{wf} &= \text{{CL\_a\_W}} \cdot a_0 \cdot q_{\text{{inf}}} \cdot S_{\text{{W}}} \quad \text{{(where CL\_a\_wf is the same as CL\_a\_w)}} \\
+                  L_h &= \text{{CL\_a\_H}} \cdot a_H \cdot q_H \cdot S_H \\
+                  C_{D0} &= 0.0145 + 0.1 \cdot (\text{{CL\_a\_W}} \cdot a_0)^2 \\
+                  D_0 &= q_{\text{{inf}}} \cdot S_{\text{{W}}} \cdot C_{D0} \\
+                  F_{N0} &= 2 \cdot q_{\text{{inf}}} \cdot A_{\text{{in}}} \cdot (\cos(a_0))^2 \cdot \sin(a_0) \\
+              \end{aligned}
+              \end{equation}
         \end{itemize}
         
     \item \textbf{Iterative Process:}
         \begin{itemize}
-            \item Iterate over a range of values for $i$ from 0 to 26.
-            \item Initialize empty lists for $CL_{\text{list}}$ and $CM_{\text{list}}$.
-            \item Calculate the midpoint ($xcg$) between $xcg_{\text{high}}$ and $xcg_{\text{low}}$.
-            \item Set lower and upper bounds ($ilow$ and $iup$) for a pitch angle ($ih$) within a specified range.
-            \item Calculate a guess for $ih$ ($guess_ih$) as the midpoint between $ilow$ and $iup$.
-            \item Iterate over the range of $a$ values:
-                \begin{itemize}
-                    \item Calculate $CL$ and $CM$ for each $a$ and $ih$.
-                    \item Append these values to $CL_{\text{list}}$ and $CM_{\text{list}}$.
-                \end{itemize}
-            \item Find the index ($l$) corresponding to the minimum value in $CM_{\text{list}}$.
-            \item Calculate the angle of attack ($alpha$) and the guessed $CL$ value ($CL_{\text{guess}}$) based on the minimum $CM$.
-            \item Adjust the bounds for $ih$ based on $CL_{\text{guess}}$ relative to $CL_{\text{min}}$.
-            \item Adjust $xcg_{\text{high}}$ or $xcg_{\text{low}}$ based on the magnitude of $ih$ if it's less than or greater than 20 degrees.
+            \item Change the \(X_{cg}\) to an increment smaller
+            \item Use the equations of motion to find the new trim values
+            \item{
+              \begin{equation*}
+              \begin{aligned}
+                  X &= T_0 \cdot \cos(a_0) - F_{N0} \cdot \sin(a_0) - D_0 - L_h \cdot \sin(e) \\
+                  Z &= W - T_0 \cdot \sin(a_0) - F_{N0} \cdot \cos(a_0) - L_{wf} - L_h \cdot \cos(e) \\
+                  M &= F_{N0} \cdot (X_{\text{{cg}}} - 0) - L_{wf} \cdot (X_{\text{{ac\_wf}}} - X_{\text{{cg}}})\cdot\cos(a_0) \\
+                  & - D_0 \cdot (X_{\text{{ac\_w}}} - X_{\text{{cg}}}) \cdot \sin(a_0) - L_h \cdot (X_{\text{{ac\_h}}} - X_{\text{{cg}}}) \cdot \cos(a_0 - e) 
+              \end{aligned}
+              \end{equation*}
+
+            }
+            \item If the new \(i_H \neq \pm 20\) make \(X_cg\) smaller
+            \item If new \(i_H \approx 20\) return the \(X_cg\)
         \end{itemize}
 \end{enumerate}
-\pagebreak
 
 \section{Task 1 Tables}
 \subsection*{Givens}
@@ -308,13 +320,24 @@ The comprehensive insights provided in these educational materials allow us to a
   This categorization is instrumental in enhancing our understanding of different aircraft types, 
   their design principles, and their operational capabilities, thereby contributing to a more profound comprehension of 
   aeronautical engineering principles and the broader field of aviation.
-
-
 \subsection{Task 2 Tables}
 \begin{center}
 \includegraphics[width=\linewidth]{table-2-1.png}
 \end{center}
 \pagebreak
+\section{Disscusion}
+Upon meticulous examination of the aerodynamic tables, it becomes evident that the aircraft falls within Category B in terms of its flying characteristics. This classification signifies a commendable level of stability, suggesting that the aircraft possesses the desirable trait of returning to its original state after encountering disturbances. The data gleaned from parameters such as longitudinal or lateral stability derivatives aligns with expectations for an aircraft in this category, reinforcing its predictable and manageable flight behavior.
 
+It is noteworthy that the characterization goes beyond a mere classification of stability and introduces a nuanced perspective. 
+The aircraft's stability is described as judiciously balanced within Category B –
+ a classification denoting stability that is not excessively robust. This nuanced stability implies a well-thought-out equilibrium, 
+ allowing the aircraft to remain responsive to control inputs without presenting undue challenges for the pilot. 
+ The deliberate balance struck by the aircraft, falling within the confines of Category B, 
+ highlights its aptitude for maintaining a harmonious relationship between stability and maneuverability. 
+ This characteristic ensures a flying experience that is both stable and responsive, contributing to an aircraft that is well-suited 
+ for a diverse range of flight conditions.
 \includepdf[pages=-]{Code.pdf}
+
+
+
 \end{document}

@@ -17,4 +17,5 @@
 \contentsline {subsection}{\numberline {4.2}Explanation of Dynamic Parameters from Eigenvalues}{12}{}%
 \contentsline {subsection}{\numberline {4.3}Categorzing the Aircraft}{13}{}%
 \contentsline {subsection}{\numberline {4.4}Task 2 Tables}{13}{}%
+\contentsline {section}{\numberline {5}Disscusion}{14}{}%
 \tof@finish 
