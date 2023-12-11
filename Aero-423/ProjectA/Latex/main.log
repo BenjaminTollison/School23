@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  4 DEC 2023 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.14)  8 DEC 2023 23:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/Project/Latex/main.tex
-(c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-321/Project/Latex/main.tex
+**c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-423/ProjectA/Latex/main.tex
+(c:/Users/benja/OneDrive/Documents/GitHub/School23/Aero-423/ProjectA/Latex/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -683,368 +683,135 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-<321ProjectTitlePage.pdf, id=1, 614.295pt x 794.97pt>
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf>
-Package pdftex.def Info: 321ProjectTitlePage.pdf  used on input line 41.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf>
-Package pdftex.def Info: 321ProjectTitlePage.pdf  used on input line 41.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<321ProjectTitlePage.pdf, id=4, page=1, 614.295pt x 794.97pt>
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf, page 1>
-Package pdftex.def Info: 321ProjectTitlePage.pdf , page1 used on input line 41.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf, page 1>
-Package pdftex.def Info: 321ProjectTitlePage.pdf , page1 used on input line 41.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf, page 1>
-Package pdftex.def Info: 321ProjectTitlePage.pdf , page1 used on input line 41.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf, page 1>
-Package pdftex.def Info: 321ProjectTitlePage.pdf , page1 used on input line 41.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 321ProjectTitlePage.pdf Graphic file (type pdf)
-<use 321ProjectTitlePage.pdf, page 1>
-Package pdftex.def Info: 321ProjectTitlePage.pdf , page1 used on input line 41.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [1
-
- <./321ProjectTitlePage.pdf, page is rotated 90 degrees>] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+)) (title/title.tex
+<title/logo.png, id=1, 624.3325pt x 632.3625pt>
+File: title/logo.png Graphic file (type png)
+<use title/logo.png>
+Package pdftex.def Info: title/logo.png  used on input line 9.
+(pdftex.def)             Requested size: 227.62204pt x 230.54504pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (C:\Users\benja\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./title/logo.png (PNG copy)>]) (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2{C:/Users/benja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+ [2]
+<alpha-coverage.png, id=17, 145.04187pt x 93.85063pt>
+File: alpha-coverage.png Graphic file (type png)
+<use alpha-coverage.png>
+Package pdftex.def Info: alpha-coverage.png  used on input line 64.
+(pdftex.def)             Requested size: 145.0415pt x 93.85039pt.
+ [3 <./alpha-coverage.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--98
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
+<parent-sat.png, id=29, 429.605pt x 351.3125pt>
+File: parent-sat.png Graphic file (type png)
+<use parent-sat.png>
+Package pdftex.def Info: parent-sat.png  used on input line 117.
+(pdftex.def)             Requested size: 429.60394pt x 351.31163pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
-
- []
-
-<Givens-table.png, id=63, 531.9875pt x 517.935pt>
-File: Givens-table.png Graphic file (type png)
-<use Givens-table.png>
-Package pdftex.def Info: Givens-table.png  used on input line 199.
-(pdftex.def)             Requested size: 483.69684pt x 470.93433pt.
+ [4]
+<orbit-path-a.png, id=35, 505.89pt x 270.00874pt>
+File: orbit-path-a.png Graphic file (type png)
+<use orbit-path-a.png>
+Package pdftex.def Info: orbit-path-a.png  used on input line 121.
+(pdftex.def)             Requested size: 483.69684pt x 258.16719pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./Givens-table.png>]
-<table-1.png, id=74, 474.77374pt x 492.33937pt>
-File: table-1.png Graphic file (type png)
-<use table-1.png>
-Package pdftex.def Info: table-1.png  used on input line 202.
-(pdftex.def)             Requested size: 483.69684pt x 501.61606pt.
-<table-1-1.png, id=75, 485.31313pt x 566.115pt>
-File: table-1-1.png Graphic file (type png)
-<use table-1-1.png>
-Package pdftex.def Info: table-1-1.png  used on input line 204.
-(pdftex.def)             Requested size: 483.69684pt x 564.26503pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8 <./table-1.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./table-1-1.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-<table-2.png, id=87, 426.59375pt x 498.86375pt>
-File: table-2.png Graphic file (type png)
-<use table-2.png>
-Package pdftex.def Info: table-2.png  used on input line 253.
-(pdftex.def)             Requested size: 483.69684pt x 565.67339pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./table-2.png>] [12]
-<table-2-1.png, id=95, 456.70625pt x 271.51437pt>
-File: table-2-1.png Graphic file (type png)
-<use table-2-1.png>
-Package pdftex.def Info: table-2-1.png  used on input line 325.
-(pdftex.def)             Requested size: 483.69684pt x 287.56769pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./table-2-1.png>]
-Overfull \hbox (1.9155pt too wide) in paragraph at lines 357--358
-[]\OT1/cmr/bx/n/10 Certification Re-quire-ments: \OT1/cmr/m/n/10 Reg-u-la-tory au-thor-i-ties of-ten set spe-cific cri-te-ria for lateral-directional
- []
-
-<table-5.png, id=101, 410.03188pt x 509.40312pt>
-File: table-5.png Graphic file (type png)
-<use table-5.png>
-Package pdftex.def Info: table-5.png  used on input line 365.
-(pdftex.def)             Requested size: 483.69684pt x 600.95833pt.
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./table-5.png>]
-<table-6.png, id=109, 569.62813pt x 409.53pt>
-File: table-6.png Graphic file (type png)
-<use table-6.png>
-Package pdftex.def Info: table-6.png  used on input line 369.
-(pdftex.def)             Requested size: 483.69684pt x 347.74594pt.
-<table-6-1.png, id=110, 572.63937pt x 364.86313pt>
-File: table-6-1.png Graphic file (type png)
-<use table-6-1.png>
-Package pdftex.def Info: table-6-1.png  used on input line 372.
-(pdftex.def)             Requested size: 483.69684pt x 308.19768pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./table-6.png> <./table-6-1.png>]
-<table-7-8.png, id=116, 706.13812pt x 349.305pt>
-File: table-7-8.png Graphic file (type png)
-<use table-7-8.png>
-Package pdftex.def Info: table-7-8.png  used on input line 376.
-(pdftex.def)             Requested size: 483.69684pt x 239.27248pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./table-7-8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 382--385
-
- []
-
-<Code.pdf, id=121, 614.295pt x 794.97pt>
+ [5 <./parent-sat.png> <./orbit-path-a.png>]
+<orbit-path-b.png, id=41, 500.36937pt x 260.975pt>
+File: orbit-path-b.png Graphic file (type png)
+<use orbit-path-b.png>
+Package pdftex.def Info: orbit-path-b.png  used on input line 126.
+(pdftex.def)             Requested size: 483.69684pt x 252.28928pt.
+<Code.pdf, id=42, 614.295pt x 794.97pt>
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf>
-Package pdftex.def Info: Code.pdf  used on input line 413.
+Package pdftex.def Info: Code.pdf  used on input line 138.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf>
-Package pdftex.def Info: Code.pdf  used on input line 413.
+Package pdftex.def Info: Code.pdf  used on input line 138.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Code.pdf, id=124, page=1, 614.295pt x 794.97pt>
+<Code.pdf, id=45, page=1, 614.295pt x 794.97pt>
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 1>
-Package pdftex.def Info: Code.pdf , page1 used on input line 413.
+Package pdftex.def Info: Code.pdf , page1 used on input line 138.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 1>
-Package pdftex.def Info: Code.pdf , page1 used on input line 413.
+Package pdftex.def Info: Code.pdf , page1 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[18]
+ [6 <./orbit-path-b.png>]
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 1>
-Package pdftex.def Info: Code.pdf , page1 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 1>
-Package pdftex.def Info: Code.pdf , page1 used on input line 413.
+Package pdftex.def Info: Code.pdf , page1 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 1>
-Package pdftex.def Info: Code.pdf , page1 used on input line 413.
+Package pdftex.def Info: Code.pdf , page1 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [19 <./Code.pdf>]
-<Code.pdf, id=149, page=2, 614.295pt x 794.97pt>
+File: Code.pdf Graphic file (type pdf)
+<use Code.pdf, page 1>
+Package pdftex.def Info: Code.pdf , page1 used on input line 138.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [7 <./Code.pdf>]
+<Code.pdf, id=97, page=2, 614.295pt x 794.97pt>
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 2>
-Package pdftex.def Info: Code.pdf , page2 used on input line 413.
+Package pdftex.def Info: Code.pdf , page2 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 2>
-Package pdftex.def Info: Code.pdf , page2 used on input line 413.
+Package pdftex.def Info: Code.pdf , page2 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 2>
-Package pdftex.def Info: Code.pdf , page2 used on input line 413.
+Package pdftex.def Info: Code.pdf , page2 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [20 <./Code.pdf>]
-<Code.pdf, id=163, page=3, 614.295pt x 794.97pt>
+ [8 <./Code.pdf>]
+<Code.pdf, id=108, page=3, 614.295pt x 794.97pt>
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 3>
-Package pdftex.def Info: Code.pdf , page3 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 3>
-Package pdftex.def Info: Code.pdf , page3 used on input line 413.
+Package pdftex.def Info: Code.pdf , page3 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Code.pdf Graphic file (type pdf)
 <use Code.pdf, page 3>
-Package pdftex.def Info: Code.pdf , page3 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [21 <./Code.pdf>]
-<Code.pdf, id=167, page=4, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 4>
-Package pdftex.def Info: Code.pdf , page4 used on input line 413.
+Package pdftex.def Info: Code.pdf , page3 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 4>
-Package pdftex.def Info: Code.pdf , page4 used on input line 413.
+<use Code.pdf, page 3>
+Package pdftex.def Info: Code.pdf , page3 used on input line 138.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 4>
-Package pdftex.def Info: Code.pdf , page4 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [22 <./Code.pdf>]
-<Code.pdf, id=171, page=5, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 5>
-Package pdftex.def Info: Code.pdf , page5 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 5>
-Package pdftex.def Info: Code.pdf , page5 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 5>
-Package pdftex.def Info: Code.pdf , page5 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [23 <./Code.pdf>]
-<Code.pdf, id=175, page=6, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 6>
-Package pdftex.def Info: Code.pdf , page6 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 6>
-Package pdftex.def Info: Code.pdf , page6 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 6>
-Package pdftex.def Info: Code.pdf , page6 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [24 <./Code.pdf>]
-<Code.pdf, id=185, page=7, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 7>
-Package pdftex.def Info: Code.pdf , page7 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 7>
-Package pdftex.def Info: Code.pdf , page7 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 7>
-Package pdftex.def Info: Code.pdf , page7 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [25 <./Code.pdf>]
-<Code.pdf, id=190, page=8, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 8>
-Package pdftex.def Info: Code.pdf , page8 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 8>
-Package pdftex.def Info: Code.pdf , page8 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 8>
-Package pdftex.def Info: Code.pdf , page8 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [26 <./Code.pdf>]
-<Code.pdf, id=195, page=9, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 9>
-Package pdftex.def Info: Code.pdf , page9 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 9>
-Package pdftex.def Info: Code.pdf , page9 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 9>
-Package pdftex.def Info: Code.pdf , page9 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [27 <./Code.pdf>]
-<Code.pdf, id=199, page=10, 614.295pt x 794.97pt>
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 10>
-Package pdftex.def Info: Code.pdf , page10 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 10>
-Package pdftex.def Info: Code.pdf , page10 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: Code.pdf Graphic file (type pdf)
-<use Code.pdf, page 10>
-Package pdftex.def Info: Code.pdf , page10 used on input line 413.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [28 <./Code.pdf>] (main.aux)
+ [9 <./Code.pdf>] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15622 strings out of 476411
- 287273 string characters out of 5789134
- 1869845 words of memory out of 5000000
- 35730 multiletter control sequences out of 15000+600000
- 521532 words of font info for 68 fonts, out of 8000000 for 9000
+ 15565 strings out of 476411
+ 286124 string characters out of 5789134
+ 1862845 words of memory out of 5000000
+ 35675 multiletter control sequences out of 15000+600000
+ 522733 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,17n,90p,1119b,854s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\benja\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (28 pages, 1174341 bytes).
+ 85i,17n,90p,1120b,854s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/benja/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (9 pages, 1827445 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
+ 178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,10 @@
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {section}{\numberline {1}Project Constraints}{3}{}%
+\contentsline {section}{\numberline {2}Initial Approximation}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Finding \(\Lambda _{\min }\)}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Finding Number of planes}{4}{}%
+\contentsline {section}{\numberline {3}STK}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Final Proposed Design}{6}{}%
+\contentsline {section}{\numberline {4}Code}{6}{}%
+\tof@finish 
